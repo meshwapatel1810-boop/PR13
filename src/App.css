@@ -1,0 +1,84 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #ede9fe);
+  color: #1e293b;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px 18px;
+  text-align: center;
+}
+
+h1 {
+  color: #4338ca;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  margin: 22px 0;
+  border-radius: 16px;
+  border-top: 5px solid #6366f1;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+}
+
+.card h2 {
+  color: #4f46e5;
+  margin-top: 0;
+}
+
+.card > p {
+  color: #64748b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #6366f1;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+.page {
+  background: #f5f3ff;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.page h3 {
+  color: #4338ca;
+}
+
+.page p {
+  margin-bottom: 0;
+}
